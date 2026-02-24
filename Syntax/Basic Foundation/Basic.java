@@ -4,7 +4,7 @@ public class Basic {
     // Variable Types 
     int v1=10;
     int v2=20;
-    String name= "Akshay";
+    String name= "Aksh";
     char a= 'A';
     float amt = 10.0f;
 
