@@ -15,3 +15,5 @@ public class DefaultC
         System.out.println("TYPE:"+myobj.type);
     }
 }
+
+// This keyword is used to access current class variables.
