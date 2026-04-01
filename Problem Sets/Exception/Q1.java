@@ -1,3 +1,4 @@
+// Calculate sum of digits & raise exception if number is greater then zero
 import java.util.Scanner;
 
 class OutofRange extends Exception
