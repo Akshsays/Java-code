@@ -1,3 +1,4 @@
+import java.io.FileNotFoundException;
 import java.io.FileWriter; // Write file 
 import java.io.IOException;
 
@@ -10,9 +11,14 @@ class Writefile
             writer.write("Hello, This is me writing in a file created throught Createfile!!!"); // writing in file using write() method
             writer.close();
             System.out.println("Wrote in file!!");
+            
+        } catch(FileNotFoundException e)
+        {
+            System.out.println("File not found");
         } catch(IOException e)
         {
             System.out.println("Error: Failed to write");
         }
+
     }
 }
