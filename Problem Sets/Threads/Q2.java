@@ -1,4 +1,4 @@
-
+// Print even number between 2 to 20 using thread
 class Mythread2 implements Runnable
 {
     @Override
